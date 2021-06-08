@@ -8,5 +8,5 @@ const login = async driver => {
     await driver.findElement(By.id('LoginControl1_txtPassword')).sendKeys(config.pass);
     await driver.findElement(By.id('LoginControl1_btnLogin')).click()
 }
-
+ 
 module.exports = login
